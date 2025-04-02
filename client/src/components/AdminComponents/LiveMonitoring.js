@@ -139,15 +139,7 @@ const LiveMonitoring = () => {
             <Col md={3}>
               <Card className="shadow-sm p-3 bg-light rounded text-center">
                 <Card.Body>
-                  <h5>Total Users</h5>
-                  <h3>{totalVoters}</h3>
-                </Card.Body>
-              </Card>
-            </Col>
-            <Col md={3}>
-              <Card className="shadow-sm p-3 bg-light rounded text-center">
-                <Card.Body>
-                  <h5>Registered Users</h5>
+                  <h5>Registered Voters</h5>
                   <h3>{registeredVoters}</h3>
                 </Card.Body>
               </Card>
@@ -155,7 +147,7 @@ const LiveMonitoring = () => {
             <Col md={3}>
               <Card className="shadow-sm p-3 bg-light rounded text-center">
                 <Card.Body>
-                  <h5>Verified Users</h5>
+                  <h5>Verified Voters</h5>
                   <h3>{verifiedVoters}</h3>
                 </Card.Body>
               </Card>
@@ -163,7 +155,7 @@ const LiveMonitoring = () => {
             <Col md={3}>
               <Card className="shadow-sm p-3 bg-light rounded text-center">
                 <Card.Body>
-                  <h5>Users Who Voted</h5>
+                  <h5>People Who Voted</h5>
                   <h3>{votedVoters}</h3>
                 </Card.Body>
               </Card>
